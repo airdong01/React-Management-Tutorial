@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Mi-190726001\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js dev
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Mi-190726001\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Mi-190726001\AppData\Local\Programs\Python\Python38\;C:\Users\Mi-190726001\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Java\jdk-14.0.1\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.2\bin;;C:\Users\Mi-190726001\AppData\Roaming\npm;C:\Users\Mi-190726001\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\react\management\package.json: Unexpected token / in JSON at position 401
+      at JSON.parse (<anonymous>)
+      at C:\Users\Mi-190726001\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Mi-190726001\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Mi-190726001\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "management",
+      "version": "1.0.0",
+      "scripts": {
+          "client": "cd client && yarn start",
+          "server": "node server.js",
+          "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+      },
+      "dependencies": {
+          "body-parser": "^1.19.0",
+          "express": "^4.16.4"
+      },
+      "devDependencies": {
+          "concurrently": "^4.0.1"
+      }
+      // "proxy" : "http://localhost:5000/"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
