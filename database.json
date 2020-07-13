@@ -1,0 +1,7 @@
+{
+    "host" : "management.cad3kny1mmi1.us-east-2.rds.amazonaws.com",
+    "user" : "root",
+    "password" : "donghee001",
+    "port" : "3306",
+    "database" : "management"
+}
